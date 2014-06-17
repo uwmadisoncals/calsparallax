@@ -1,0 +1,4 @@
+(function($) {
+	alert("testing");
+
+})( jQuery );

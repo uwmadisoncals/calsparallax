@@ -30,7 +30,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       build: {
-        src: ['js/scimedgrs_custom.js'],
+        src: ['js/min/jquery.stellar.min.js','js/min/waypoints.min.js','js/jquery.easing.1.3.js','js/calsparallax_custom.js'],
         dest: 'js/min/master.min.js'
       },
       uglifyCSS:{
